@@ -1,4 +1,4 @@
-package org.skoosha.Generator;
+package org.skoosha.generator;
 
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 
