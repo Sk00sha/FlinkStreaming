@@ -6,7 +6,10 @@ import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.connector.kafka.source.KafkaSource;
 import org.apache.flink.connector.kafka.source.enumerator.initializer.OffsetsInitializer;
 
-
+/**
+ * Class used as Kafka connector admin
+ * TODO add more robust param handling
+ */
 public class KafkaConnectorPipeline {
 
     public KafkaSource<String> buildKafkaSource(){

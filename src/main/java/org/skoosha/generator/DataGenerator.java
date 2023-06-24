@@ -2,6 +2,9 @@ package org.skoosha.generator;
 
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 
+/**
+ * Class that implements source-function to generate data into stream
+ */
 public class DataGenerator implements SourceFunction<Integer> {
     private boolean running = true;
     private int generatedNumber = 0;

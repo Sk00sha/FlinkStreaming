@@ -1,5 +1,8 @@
 package org.skoosha.functions;
 
+/**
+ * Basically a bunch of nonsense
+ */
 public class HelperFunctions {
 
     public static String evenOddDecider(int number){

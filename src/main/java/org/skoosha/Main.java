@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args)  {
 
 
-        ExecutionEnvironment<Integer> env = new ExecutionEnvironment<>();
+        ExecutionEnvironment<String> env = new ExecutionEnvironment<>();
 
         try {
             //DataStream<Integer> stream = env.getGeneratorDataStream(new DataGenerator());
