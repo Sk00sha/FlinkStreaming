@@ -2,7 +2,7 @@ package org.skoosha.generator;
 
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 
-public class DataGenerator implements SourceFunction {
+public class DataGenerator implements SourceFunction<Integer> {
     private boolean running = true;
     private int generatedNumber = 0;
     private int millisSleep = 1000;
